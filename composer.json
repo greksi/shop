@@ -1,0 +1,17 @@
+{   
+    "name":"greksi/ishop",
+    "description":"Lerning project for php",
+     "version":"1.0.0",
+    
+     "autoload": {
+         "psr-4": {
+           "ishop\\":"vendor/ishop/core",
+           "app\\": "app"
+         }
+     },
+ 
+         "require": {
+          "gabordemooij/redbean": "dev-master"
+         }    
+}
+ 
